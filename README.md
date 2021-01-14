@@ -18,4 +18,4 @@
 **Github:**
 
 
-* [Ссылка на сайт](https://github.com/liz4chernyshova/russian-travel)
+* [Ссылка на сайт](https://liz4chernyshova.github.io/russian-travel/)
