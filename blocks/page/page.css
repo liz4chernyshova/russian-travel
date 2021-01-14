@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Inter;
+    src: url('fonts/Inter\ Web/ Inter');
+}
+.page {
+    background-color:  #302f2f;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    min-width: 320px;
+    font-family: Inter;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    color: #ffffff;
+}

@@ -1,0 +1,29 @@
+.cover {
+    max-width: calc(100% - 96px);
+    margin: 0 auto;
+    min-height: 740px;
+    background-image: url(../../images/__background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+        min-height: 640px;
+    }
+}
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .cover {
+        max-width: 100%;
+        margin: 0;
+        min-height: 480px;
+    }
+}
+@media all and (max-width: 425px) {
+    .cover {
+        max-width: 100%;
+        min-height: 200px;
+    }
+}
