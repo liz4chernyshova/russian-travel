@@ -26,9 +26,9 @@
 }
 @media all and (max-width: 425px) {
     .cover__title {
-        max-width: 90%;
+        max-width: 80%;
         font-size: 32px;
         top: 5%;
-        left: 5%;
+        left: 10%;
     }
 }

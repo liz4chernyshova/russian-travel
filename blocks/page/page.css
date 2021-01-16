@@ -1,9 +1,4 @@
-@font-face {
-    font-family: Inter;
-    src: url('fonts/Inter\ Web/ Inter');
-}
 .page {
-    background-color:  #302f2f;
     margin: 0 auto;
     padding: 0;
     max-width: 100%;

@@ -5,7 +5,12 @@
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width: 425px) {
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .footer {
+        max-width: calc(100% - 48px);
+    }
+}
+@media all and (max-width: 425px) {
     .footer {
         flex-direction: column;
         margin: 64px 16px 0;
