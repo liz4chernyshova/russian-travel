@@ -7,7 +7,7 @@
     text-align: center;
     color: #ffffff;
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 27.5%;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -26,9 +26,9 @@
 }
 @media all and (max-width: 425px) {
     .cover__title {
-        max-width: 80%;
+        max-width: 75%;
         font-size: 32px;
-        top: 5%;
-        left: 10%;
+        top: 18%;
+        left: 11%;
     }
 }
