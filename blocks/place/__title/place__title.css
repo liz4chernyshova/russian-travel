@@ -4,6 +4,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 1.1;
+    background-color: darkorange;
 }
 @media all and (min-width: 425px) and (max-width: 768px) {
     .place__title {
@@ -14,5 +15,6 @@
     .place__title {
         font-size: 32px;
         margin: 0 16px 32px;
+        line-height: 1.1;
     }
 }

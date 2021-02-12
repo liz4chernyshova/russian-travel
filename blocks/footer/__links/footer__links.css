@@ -1,0 +1,12 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+}
+@media all and (max-width: 425px) {
+    .footer__links {
+        padding-bottom: 32px;
+    }
+    .footer__links:nth-child(5) {
+        padding-bottom: 0;
+    }
+}

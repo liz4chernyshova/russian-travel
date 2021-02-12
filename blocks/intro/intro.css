@@ -1,14 +1,15 @@
 .intro {
     max-width: 690px;
     margin: 92px 148px 0;
+    background-color: aqua;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .into{
+    .intro {
         margin: 92px 48px 0;
     }
 }
 @media all and (min-width: 425px) and (max-width: 768px){
-    .intro{
+    .intro {
         max-width: calc(100% - 48px);
         margin: 88px auto 0;
     }
