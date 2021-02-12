@@ -2,7 +2,6 @@
     max-width: calc(100% - 296px);
     margin: 56px auto 0;
     padding: 0;
-    background-color: darkorchid;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead {

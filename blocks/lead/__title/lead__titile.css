@@ -6,7 +6,6 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 1;
-    background-color: darkturquoise;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .lead__title {

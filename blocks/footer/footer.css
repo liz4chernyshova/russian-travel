@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua
 }
 @media all and (min-width: 425px) and (max-width: 768px) {
     .footer {

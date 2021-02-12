@@ -5,7 +5,6 @@
     line-height: 1.63;
     margin-top: 0;
     margin-bottom: 26px;
-    background-color: darkgreen;
 }
 @media all and (min-width: 425px) and (max-width: 768px) {
     .place__paragraph {

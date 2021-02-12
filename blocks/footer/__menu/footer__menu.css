@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
 }
 @media all and (max-width: 425px) {
     .footer__menu{

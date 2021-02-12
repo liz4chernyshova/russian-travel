@@ -1,7 +1,6 @@
 .photo-grid {
     margin: 92px auto 0;
     max-width: calc(100% - 96px);
-    background-color: darkkhaki;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     gap: 16px;
@@ -29,5 +28,6 @@
         max-width: calc(100% - 32px);
         gap: 12px;
         grid-template-columns: 100%;
+        margin-top: 64px;
     }
 }

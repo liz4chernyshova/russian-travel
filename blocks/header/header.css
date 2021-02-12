@@ -14,5 +14,6 @@
 @media all and (max-width: 425px) {
     .header {
         max-width: calc(100% - 32px);
+        margin-top: 16px;
     }
 }

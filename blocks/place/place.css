@@ -4,7 +4,6 @@
     grid-template-columns: 45% 1fr;
     grid-template-rows: auto;
     gap: 48px 40px;
-    background-color: darkmagenta;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place {
