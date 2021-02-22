@@ -14,12 +14,12 @@
         max-width: 35%;
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px) {
+@media all and (min-width: 515px) and (max-width: 768px) {
     .cover__subtitle {
         max-width: 47%;
     }
 }
-@media all and (max-width: 425px) {
+@media all and (max-width: 515px) {
     .cover__subtitle {
         max-width: 83.5%;
         font-size: 14px;

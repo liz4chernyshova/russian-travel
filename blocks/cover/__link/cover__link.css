@@ -1,6 +1,7 @@
 .cover__link {
     max-width: 100%;
-    height: 740px;
+    min-height: 740px;
+    margin: 0;
     background-image: url(../../../images/__background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,21 +13,19 @@
     position: relative;
     text-decoration: none;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 865px) and (max-width: 1024px) {
     .cover__link {
-        margin: 0;
-        height: 640px;
+        max-height: 580px;
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px) {
+@media all and (min-width: 515px) and (max-width: 865px) {
     .cover__link {
-        margin: 0;
-        height: 480px;
+        min-height: 480px;
     }
 }
-@media all and (max-width: 425px) {
+@media all and (max-width: 515px) {
     .cover__link {
-        height: 200px;
+        min-height: 200px;
     }
 }
 .cover__link::before {
@@ -35,27 +34,12 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 740px;
+    height: 100%;
     max-width: 100%;
     background-color: #2A2C2F;
     opacity: 0.3;
+    transition: 0.5;
     z-index: 1;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .cover__link::before {
-        height: 640px;
-    }
-}
-@media all and (min-width: 425px) and (max-width: 768px) {
-    .cover__link::before {
-        margin: 0;
-        height: 480px;
-    }
-}
-@media all and (max-width: 425px) {
-    .cover__link::before {
-        height: 200px;
-    }
 }
 .cover__link:hover::before {
     opacity: 0.8;

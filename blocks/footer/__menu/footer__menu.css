@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
-@media all and (max-width: 425px) {
+@media all and (max-width: 703px) {
     .footer__menu{
         display: block;
         margin-bottom: 48px;

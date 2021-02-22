@@ -1,6 +1,7 @@
 .lead__subtitle {
     max-width: 65%;
-    margin: 0 auto 64px;
+    margin-top: 0;
+    margin-bottom: 64px;
     text-align: center;
     font-style: normal;
     font-weight: 400;
@@ -9,15 +10,11 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .lead__subtitle{
-        max-width: calc(100% - 288px);
+        max-width: 640px;
+        margin-bottom: 56px;
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px){
-    .lead__subtitle{
-        max-width: clac(100% - 128px);
-    }
-}
-@media all and (max-width: 420px) {
+@media all and (max-width: 767px) {
     .lead__subtitle {
         max-width: 100%;
         margin-bottom: 40px;
