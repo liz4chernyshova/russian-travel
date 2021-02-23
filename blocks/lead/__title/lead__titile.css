@@ -6,13 +6,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 1;
+    line-height: 1.1;
 }
 @media all and (max-width: 767px) {
     .lead__title {
-        margin-bottom: 16px;
+        margin: 0 20px 16px;
         max-width: 100%;
         font-size: 40px;
-        line-height: 1.1;
     }
 }
